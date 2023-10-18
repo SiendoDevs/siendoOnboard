@@ -4,7 +4,7 @@ import logo from '../../src/img/logo-siendo.png';
 
 function Logo() {
   return (
-    <div className="flex items-center justify-center"> {/* Agrega las clases para centrar */}
+    <div className="flex items-center justify-center mb-10 fade-in"> {/* Agrega las clases para centrar */}
       <Image
         src={logo}
         alt="Siendo Logo"
