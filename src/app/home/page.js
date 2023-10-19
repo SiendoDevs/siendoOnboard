@@ -8,10 +8,11 @@ export default function secondScreen() {
   return (
     <div className="bg-gradient-to-b from-[#52ffd1] via-[#ff20f8] to-[#ff20f8] dark:from-[#99ee99] dark:via-[#52ffd1] dark:to-[#ff20f8] min-h-screen flex flex-col items-center justify-center">
 
-            <h2 class="text-xl font-semibold leading-7 text-gray-900 fade-in">Notifications</h2>
-            <p class="mt-6 text-center text-xl mb-8 leading-6 text-black w-1/2 fade-in">We'll always let you know about important changes, but you pick what else you want to hear about.</p>
-            <Link href="/screen1">
-              <BlackButton text="CONTINUAR" />
+            <h2 class="text-xl font-semibold leading-7 text-gray-900 fade-in">¡Primero queremos conocerte mejor!</h2>
+            <p class="mt-6 text-center text-xl mb-8 leading-6 text-black w-1/2 fade-in">Accedé a responder unas preguntas sobre tu idea o proyecto. <br /><br />Obtené gratis a una llamada de 60 minutos sin cargo con un representante de nuestro equipo.
+              </p>
+            <Link href="/form">
+              <BlackButton text="RESPONDER AHORA" />
             </Link>
     </div>
   )
